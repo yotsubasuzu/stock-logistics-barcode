@@ -144,7 +144,10 @@ class WizStockBarcodesReadTodo(models.TransientModel):
             ):
                 rec.state = "done"
             else:
-                rec.state = "pending"
+                if rec.stock_move_ids[:1].barcode_backorder_action == "pending":
+                    rec.state = "pending"
+                else:
+                    rec.state = "done_forced"
 
     @api.model
     def fields_to_fill_from_pending_line(self):
