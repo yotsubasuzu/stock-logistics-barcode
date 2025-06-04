@@ -28,12 +28,12 @@ addon | version | maintainers | summary
 [base_gs1_barcode](base_gs1_barcode/) | 12.0.1.1.1 |  | Decoding API for GS1-128 (aka UCC/EAN-128) and GS1-Datamatrix
 [product_barcode_constraint_per_company](product_barcode_constraint_per_company/) | 12.0.1.0.1 |  | Change the product barcode constraint, allowing the same barcode for differents companies
 [product_multi_ean](product_multi_ean/) | 12.0.1.0.3 |  | Multiple EAN13 on products
-[product_supplierinfo_barcode](product_supplierinfo_barcode/) | 12.0.1.1.0 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Add a barcode to supplier pricelist items
+[product_supplierinfo_barcode](product_supplierinfo_barcode/) | 12.0.1.1.0 | <a href='https://github.com/eLBati'><img src='https://github.com/eLBati.png' width='32' height='32' style='border-radius:50%;' alt='eLBati'/></a> | Add a barcode to supplier pricelist items
 [stock_barcodes](stock_barcodes/) | 12.0.2.3.0 |  | It provides read barcode on stock operations.
-[stock_barcodes_automatic_entry](stock_barcodes_automatic_entry/) | 12.0.1.0.1 | [![AdriaGForgeFlow](https://github.com/AdriaGForgeFlow.png?size=30px)](https://github.com/AdriaGForgeFlow) | This module will automatically trigger the click event on a button with the class 'barcode-automatic-entry' after a barcode scanned has been processed.
+[stock_barcodes_automatic_entry](stock_barcodes_automatic_entry/) | 12.0.1.0.1 | <a href='https://github.com/AdriaGForgeFlow'><img src='https://github.com/AdriaGForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='AdriaGForgeFlow'/></a> | This module will automatically trigger the click event on a button with the class 'barcode-automatic-entry' after a barcode scanned has been processed.
 [stock_barcodes_gs1](stock_barcodes_gs1/) | 12.0.1.1.1 |  | It provides read GS1 barcode on stock operations.
 [stock_barcodes_gs1_expiry](stock_barcodes_gs1_expiry/) | 12.0.1.0.1 |  | It provides read expiry dates from GS1 barcode on stock operations.
-[stock_barcodes_supplierinfo](stock_barcodes_supplierinfo/) | 12.0.1.0.2 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Process products searching them by supplier barcode
+[stock_barcodes_supplierinfo](stock_barcodes_supplierinfo/) | 12.0.1.0.2 | <a href='https://github.com/eLBati'><img src='https://github.com/eLBati.png' width='32' height='32' style='border-radius:50%;' alt='eLBati'/></a> | Process products searching them by supplier barcode
 [stock_inventory_barcode](stock_inventory_barcode/) | 12.0.1.0.1 |  | Add simple barcode interface on inventories
 [stock_scanner](stock_scanner/) | 12.0.1.0.3 |  | Allows managing barcode readers with simple scenarios
 
