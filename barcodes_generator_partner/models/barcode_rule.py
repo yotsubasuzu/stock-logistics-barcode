@@ -10,9 +10,11 @@ class BarcodeRule(models.Model):
     _inherit = "barcode.rule"
 
     generate_model = fields.Selection(selection_add=[("res.partner", "Partners")])
-
     type = fields.Selection(
         selection_add=[
             ("client", "Client"),
-        ]
+        ],
+        ondelete={
+            "client": "set default",
+        },
     )

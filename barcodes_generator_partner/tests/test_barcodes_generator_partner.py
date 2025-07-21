@@ -7,11 +7,12 @@ from odoo.tests.common import TransactionCase
 
 
 class Tests(TransactionCase):
-    """Tests for 'Barcodes Generate"""
+    """Tests for Barcodes Generate"""
 
-    def setUp(self):
-        super().setUp()
-        self.partner_obj = self.env["res.partner"]
+    @classmethod
+    def setUpClass(cls):
+        super().setUpClass()
+        cls.partner_obj = cls.env["res.partner"]
 
     # Test Section
     def test_01_sequence_generation_partner(self):
@@ -28,6 +29,7 @@ class Tests(TransactionCase):
             self.partner.barcode,
             "0420000000013",
             "Barcode Generation (by sequence) for Partner."
-            "Incorrect EAN13 Generated. Pattern : %s - Base : %s"
-            % (self.partner.barcode_rule_id.pattern, self.partner.barcode_base),
+            "Incorrect EAN13 Generated. "
+            f"Pattern : {self.partner.barcode_rule_id.pattern} "
+            f"- Base : {self.partner.barcode_base}",
         )
